@@ -39,7 +39,7 @@ fun main(){
     )
 
     ipV4testing(
-        name = "Should return false when it contains a character",
+        name = "Should return false when it contains a special character",
         Result = ipv4Checker("#.127.255.1"),
         CorrectResult = false
     )
